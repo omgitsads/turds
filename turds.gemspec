@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
      "lib/turds/nuggets/rcov.rb",
      "lib/turds/nuggets/reek.rb",
      "lib/turds/stain.rb",
+     "lib/turds/wit.rb",
      "pkg/turds-0.0.0.gem",
      "test/helper.rb",
      "test/test_turds.rb",
