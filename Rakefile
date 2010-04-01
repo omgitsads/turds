@@ -9,7 +9,7 @@ begin
     gem.description = %Q{turds}
     gem.email = "sfusion@gmail.com"
     gem.homepage = "http://github.com/simonmellor/turds"
-    gem.authors = ["Simon Mellor"]
+    gem.authors = ["Simon Mellor","Adam Holt"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     gem.files = FileList["**/*"]
     gem.add_dependency 'color'

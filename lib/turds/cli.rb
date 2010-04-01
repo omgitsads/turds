@@ -27,18 +27,11 @@ module Turds
       end.parse! args
 
       options[:args] = args.join(" ")
-
-      out << Turds::Stain.stain(rand(100).to_f / 100) + "\n"
-      out << Turds::Wit.new
-      result = true
-
-      if result
-        out << "Turds!\n"
-        exit 0
-      else
-        out << "No turds =(\n"
-        exit 1
-      end
+      
+      options[:nugget] = "reek" if options[:nugget].nil?
+      
+      out << Turds::Nugget::Reek.run(options[:args])
+      out << "\n"
     end
   end
 end
