@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'turds'
+rescue LoadError
+  require 'rubygems'
+  require 'turds'
+end
+
+Turds.application.run
