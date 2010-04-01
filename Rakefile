@@ -12,6 +12,8 @@ begin
     gem.authors = ["Simon Mellor"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     gem.files = FileList["**/*"]
+    gem.add_dependency 'color'
+    
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

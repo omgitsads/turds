@@ -1,6 +1,6 @@
 $:.unshift(File.dirname(__FILE__))
 
-require 'active_support'
+require 'color'
 
 require 'turds/cli'
 require 'turds/nuggets'

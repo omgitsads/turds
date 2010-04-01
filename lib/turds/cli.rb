@@ -27,6 +27,8 @@ module Turds
 
       options[:args] = args.join(" ")
 
+      out << Turds::Stain.stain(0.5)
+
       result = true
 
       if result
