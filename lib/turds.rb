@@ -1,13 +1,5 @@
-module Turds
-  class << self
-    def application
-      @application ||= Turds::Application.new
-    end
-  end
+$:.unshift(File.dirname(__FILE__))
 
-  class Application
-    def run
-      puts "Turds!"
-    end
-  end
-end
+require 'active_support'
+
+require 'turds/cli'

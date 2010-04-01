@@ -8,10 +8,12 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Simon Mellor", "Adam Holt"]
-  s.date = %q{2010-03-31}
-  s.description = %q{turds will solve world poverty, end wars and report your code metrics in one fell swoop.}
+  s.authors = ["Simon Mellor"]
+  s.date = %q{2010-04-01}
+  s.default_executable = %q{turds}
+  s.description = %q{turds}
   s.email = %q{sfusion@gmail.com}
+  s.executables = ["turds"]
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -21,15 +23,20 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "bin/turds",
+     "init.rb",
      "lib/turds.rb",
+     "lib/turds/cli.rb",
+     "pkg/turds-0.0.0.gem",
      "test/helper.rb",
-     "test/test_turds.rb"
+     "test/test_turds.rb",
+     "turds.gemspec"
   ]
   s.homepage = %q{http://github.com/simonmellor/turds}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{turds will solve world poverty, end wars and report your code metrics in one fell swoop.}
+  s.summary = %q{turds}
   s.test_files = [
     "test/helper.rb",
      "test/test_turds.rb"

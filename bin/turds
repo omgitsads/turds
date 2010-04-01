@@ -7,4 +7,4 @@ rescue LoadError
   require 'turds'
 end
 
-Turds.application.run
+Turds::Cli.start ARGV
